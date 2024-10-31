@@ -1,3 +1,27 @@
 body {
     background: black;
 }
+.navbar{
+    padding: 0px;
+    margin: 0px;
+}
+.nav-link{
+    color: white;
+    margin-left: 0.5rem;
+}
+.nav-link:hover{
+    color: white;
+}
+.form-control{
+    border-radius: 50px;
+}
+.lupa{
+    border-radius: 50px;
+    background: white;
+}
+.col-12{
+    border: 1px solid tomato;
+}
+.logo{
+    
+}
