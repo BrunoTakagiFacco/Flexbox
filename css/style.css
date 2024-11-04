@@ -1,5 +1,5 @@
 body {
-    background:white;
+    background: url(/image/360_F_323880864_TPsH5ropjEBo1ViILJmcFHJqsBzorxUB.jpg);
 }
 header{
     background: black;
@@ -13,9 +13,10 @@ header{
 .nav-link{
     color: white;
     margin-left: 0.5rem;
+    transition: all 0.3s ease; /* Define uma transição suave */
 }
 .nav-link:hover{
-    color: blue;
+    transform: scale(1.2); /* Aumenta o tamanho em 20% */
 }
 .form-control{
     border-radius: 50px;
@@ -26,18 +27,85 @@ header{
 .lupa{
     border-radius: 50px;
     background: white;
-    margin-top: 11px
+    margin-top: 11px;
+    transition: all 0.5s ease; /* Define uma transição suave */ 
 }
 .lupa:hover{
-    background: blue;
+    background: rgb(137, 137, 235);
 }
 .col-12{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.a1{
+.compra .btn{
+    padding: auto;
     margin-left: 15px;
 }
+.compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a1{
+    margin-left: 15px;
+    transition: all 0.3s ease; /* Define uma transição suave */
+}
+.a1:hover{
+    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+}
+.carinho{
+    color: black;
+}
+.carousel-inner{
+    height: 700px;
+    width: auto;
+    margin: 25px;
+    border-radius: 100px;
+}
+
+.carousel-item{
+    object-fit: cover;
+}
+
 .logo{
+}
+.a2{
+    height: 8cm;
+    width: auto;
+}
+.card{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+body p {
+}
+@media (max-width: 1024px) {
+    p {
+        display: none;
+    }
+}
+footer{
+    background-color: black;
+}
+footer p {
+    color: white;
+}
+.social{
+}
+footer .nav-link{
+    margin: 10px;
+}
+.logosocial{
+    width: 100px;
+}
+.a3{
+    width: 233px;
+    height: auto;
+}
+.b2{
+    
 }
